@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IGC HK HKUST</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #ffd8a8;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333333;
+        }
+
+        /* Header Styles (Top-left) */
+        header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 20px 30px;
+            background-color: rgba(255, 255, 255, 0.4);
+            border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+        }
+
+        header img {
+            height: 50px;
+            width: auto;
+            border-radius: 4px;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #2c2c2c;
+        }
+
+        /* Main Content Styles (Centered) */
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .welcome-box h2 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #222222;
+        }
+
+        .welcome-box p {
+            font-size: 1.2rem;
+            color: #555555;
+        }
+
+        /* Footer Styles (Sized similarly to the header) */
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 30px;
+            background-color: rgba(255, 255, 255, 0.4);
+            border-top: 2px solid rgba(0, 0, 0, 0.05);
+            font-size: 1rem;
+            color: #444444;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .footer-left {
+            font-weight: bold;
+        }
+
+        .footer-right a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        .footer-right a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive adjustments for smaller screens */
+        @media (max-width: 768px) {
+            footer {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Header on top left -->
+    <header>
+        <img src="https://www2.igchkshop.dpdns.org/img/igchkpure.jpg" alt="IGC HK Logo">
+        <h1>IGC HK HKUST</h1>
+    </header>
+
+    <!-- 2. Center welcome section -->
+    <main>
+        <div class="welcome-box">
+            <h2>Welcome to our page!</h2>
+            <p>We are glad to have you here at IGC HK HKUST.</p>
+        </div>
+    </main>
+
+    <!-- 3. Footer -->
+    <footer>
+        <div class="footer-left">
+            &copy; IGC HK — Owned by Ian Lam
+        </div>
+        <div class="footer-right">
+            Please refer back to our main domain <a href="https://www.igchkshop.dpdns.org" target="_blank">www.igchkshop.dpdns.org</a> for more details.
+        </div>
+    </footer>
+
+</body>
+</html>
